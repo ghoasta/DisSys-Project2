@@ -17,9 +17,9 @@ class ClientThread(threading.Thread):
             msg = data.decode()
             if msg == 'bye':
                 break
-            print("from client", msg)
+            print("From client", msg)
             self.c_socket.send(bytes(msg, 'UTF-8'))
-        print("Client at ", clientAddress, " disconnected...")
+        print("Client at ", clientAddress, " disconnected......")
 
 
 LOCALHOST = "127.0.0.1"
