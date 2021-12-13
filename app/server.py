@@ -1,5 +1,6 @@
 import socket
 import threading
+from data_read import Data_read
 
 
 class ClientThread(threading.Thread):
@@ -11,13 +12,19 @@ class ClientThread(threading.Thread):
         print("New connection added: ", client_address)
 
     def run(self):
+        reply = ""
         print("Connection from : ", clientAddress)
+
         while True:
             data = self.c_socket.recv(2048)
             msg = data.decode()
-            if msg == 'bye':
-                break
             print("From client", msg)
+            #exist = new_single.check_user_exist(msg)
+            #print("Do the user exist >> ",exist)
+            if (new_single.check_user_exist(msg)):
+                msg = "User exist"
+            else:
+                msg = "User does not exist"
             self.c_socket.send(bytes(msg, 'UTF-8'))
         print("Client at ", clientAddress, " disconnected......")
 
@@ -31,6 +38,8 @@ server.bind((LOCALHOST, PORT))
 
 print("Server started")
 print("Waiting for client request..")
+new_single = Data_read()
+#print(new_single.print_user("E001"))
 
 counter = 0
 

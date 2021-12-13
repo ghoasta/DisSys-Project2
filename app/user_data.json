@@ -1,0 +1,30 @@
+{"employee":
+                    {
+                    "E001":
+                        {"name": "Andy",
+                        "currBaseSalary": 38566,
+                        "currLeave": 15,
+                        "year":
+                            {"2016": {"basic":25000, "overtime":3000, "leave": 22}
+                            }
+                        },
+                    "E002":
+                        {"name": "Ron",
+                        "currBaseSalary": 42233,
+                        "currLeave": 25,
+                        "year":
+                            {"2018": {"basic":29400, "overtime":2587, "leave": 25}
+                            }
+                        },
+                    "E003":
+                        {"name": "Chris",
+                        "currBaseSalary": 51633,
+                        "currLeave": 18,
+                        "year":
+                            {"2018": {"basic":46000, "overtime":4000, "leave": 19},
+                            "2019": {"basic":48400, "overtime":2300, "leave": 21},
+                            "2020": {"basic":50000, "overtime":2750, "leave": 26}
+                            }
+                        }
+                    }
+                }
