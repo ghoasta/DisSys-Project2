@@ -2,28 +2,28 @@
                     {
                     "E001":
                         {"name": "Andy",
-                        "currBaseSalary": 38566,
-                        "currLeave": 15,
+                        "currentBaseSalary": 666666,
+                        "annualLeave": 25,
                         "year":
-                            {"2016": {"basic":25000, "overtime":3000, "leave": 22}
+                            {"2020": {"basicPay":25000, "overTime":100, "leave": 5}
                             }
                         },
                     "E002":
                         {"name": "Ron",
-                        "currBaseSalary": 42233,
-                        "currLeave": 25,
+                        "currentBaseSalary": 42233,
+                        "annualLeave": 27,
                         "year":
-                            {"2018": {"basic":29400, "overtime":2587, "leave": 25}
+                            {"2018": {"basicPay":29400, "overTime":2587, "leave": 25}
                             }
                         },
                     "E003":
                         {"name": "Chris",
-                        "currBaseSalary": 51633,
-                        "currLeave": 18,
+                        "currentBaseSalary": 51633,
+                        "annualLeave": 18,
                         "year":
-                            {"2018": {"basic":46000, "overtime":4000, "leave": 19},
-                            "2019": {"basic":48400, "overtime":2300, "leave": 21},
-                            "2020": {"basic":50000, "overtime":2750, "leave": 26}
+                            {"2018": {"basicPay":46000, "overTime":4000, "leave": 19},
+                            "2019": {"basicPay":48400, "overTime":2300, "leave": 21},
+                            "2020": {"basicPay":50000, "overTime":2750, "leave": 26}
                             }
                         }
                     }
