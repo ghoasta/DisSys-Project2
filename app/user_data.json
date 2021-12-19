@@ -11,19 +11,19 @@
                     "E002":
                         {"name": "Ron",
                         "currentBaseSalary": 42233,
-                        "annualLeave": 27,
+                        "annualLeave": 34,
                         "year":
-                            {"2018": {"basicPay":29400, "overTime":2587, "leave": 25}
+                            {"2018": {"basicPay":5555, "overTime":777, "leave": 3}
                             }
                         },
                     "E003":
                         {"name": "Chris",
-                        "currentBaseSalary": 51633,
-                        "annualLeave": 18,
+                        "currentBaseSalary": 123123,
+                        "annualLeave": 17,
                         "year":
-                            {"2018": {"basicPay":46000, "overTime":4000, "leave": 19},
-                            "2019": {"basicPay":48400, "overTime":2300, "leave": 21},
-                            "2020": {"basicPay":50000, "overTime":2750, "leave": 26}
+                            {"2018": {"basicPay":50123, "overTime":1000, "leave": 1},
+                            "2019": {"basicPay":48963, "overTime":2000, "leave": 2},
+                            "2020": {"basicPay":45678, "overTime":3000, "leave": 3}
                             }
                         }
                     }
